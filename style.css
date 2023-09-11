@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: #ff6a46;
+  --bg-color: #e1f9ca;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background: var(--bg-color);
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.class {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
