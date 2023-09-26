@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 :root {
-  --theme-color: #ff6a46;
-  --bg-color: #e1f9ca;
+  --theme-color: #e9b824;
+  --bg-color: #e9b824;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 }
 
 .wrapper {
-  width: 800px;
+  width: 750px;
   margin: 0 auto;
 }
 
@@ -23,4 +25,39 @@ body {
   border: 1px solid #ccc;
   border-radius: 7px;
   margin-bottom: 20px;
+}
+
+#header {
+  text-align: center;
+}
+
+#hero {
+  text-align: center;
+}
+
+#hero h1 {
+  color: #288f85;
+  font-size: 64px;
+  line-height: 1.2;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+}
+
+#hero p {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #d83f31;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 60px;
+  display: inline-block;
 }
